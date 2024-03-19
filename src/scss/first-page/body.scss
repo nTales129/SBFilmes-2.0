@@ -1,0 +1,21 @@
+body {
+   min-height: 100vh;
+   width: 100%;
+   max-width: 100vw;
+   background: linear-gradient(90deg,rgb(19, 18, 19),rgb(9, 0, 17));
+   color: #fff;
+ }
+
+ @media screen and (max-width: 600px) {
+    .info-container, .gallery, .faq {
+      min-height: 120vh;
+      margin: 15vh 0px;
+    }
+ }
+ 
+
+ @import './header.scss';
+ @import './main.scss';
+ @import './info.scss';
+ @import './gallery.scss';
+ @import './faq.scss';

@@ -1,0 +1,52 @@
+.container-main {
+   background-image: url("https://techbit.pt/wp-content/uploads/2021/01/disney-catalogo-filmes-series-star.jpg");
+   background-size: cover; // Isso faz com que a imagem cubra todo o elemento de fundo
+   background-position: center; // Isso centraliza a imagem no elemento de fundo
+   background-repeat: no-repeat; // Isso evita que a imagem se repita
+   
+
+}
+
+.principal-text {
+   padding: 60px;
+   background-color: rgba(0, 0, 0, 0.527);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.425);
+
+   h2 {
+      font-size: 42px;
+      letter-spacing: 1.5px;
+      font-weight: 800;
+      margin-bottom: 15px;
+      color: #510086;
+      filter: brightness(200%);
+   }
+
+   p {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+      color: #ccc;
+   }
+
+   .categorias {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 30px;
+      font-size: 18px;
+      text-transform: uppercase;
+
+      a {
+         background-color: #5c5c5c;
+         padding: 5px;
+         border-radius: 4px;
+         color: #fff;
+         text-decoration: none;
+      }
+   }
+}

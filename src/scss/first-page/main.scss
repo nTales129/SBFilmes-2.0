@@ -1,0 +1,150 @@
+main {
+   content: "";
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   opacity: 0.8;
+   background-image: url("https://techbit.pt/wp-content/uploads/2021/01/disney-catalogo-filmes-series-star.jpg");
+   background-size: cover; // Isso faz com que a imagem cubra todo o elemento de fundo
+   background-position: center; // Isso centraliza a imagem no elemento de fundo
+   background-repeat: no-repeat; // Isso evita que a imagem se repita
+
+
+   .container-login-action {
+      height: 85vh;
+      width: 100%;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      // text-align: center;
+
+
+
+      .form-wrapper {
+         // position: absolute;
+         // left: 50%;
+         // top: 50%;
+         max-height: 80%;
+         width: 430px;
+         padding: 20px 60px;
+         border-radius: 4px;
+         background: rgba(0, 0, 0, 0.75);
+         // transform: translate(-50%, -50%);
+         font-family: 'Roboto',sans-serif;
+         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .form-wrapper h2 {
+         color: #fff;
+         font-size: 2rem;
+      }
+
+      .form-wrapper form {
+         margin: 25px 0 65px;
+      }
+
+      form .form-control {
+         position: relative;
+         height: 50px;
+         margin-bottom: 16px;
+      }
+
+      .form-control input {
+         height: 100%;
+         width: 100%;
+         background: #333;
+         outline: none;
+         border: none;
+         color: #fff;
+         font-size: 1rem;
+         border-radius: 4px;
+         padding: 0 20px;
+
+      }
+
+      .form-control input:is(:focus, :valid) {
+         padding: 16px 20px;
+         background: #444;
+      }
+
+      .form-control label {
+         position: absolute;
+         left: 20px;
+         top: 50%;
+         color: #8c8c8c;
+         pointer-events: none;
+         font-size: 1rem;
+         transform: translateY(-50%);
+         transition: all 0.1s ease;
+      }
+
+      .form-control input:is(:focus, :valid)~label {
+         font-size: 0.75rem;
+         transform: translateY(-130%);
+      }
+
+      form button {
+         width: 100%;
+         padding: 16px 0;
+         font-size: 1rem;
+         border: none;
+         outline: none;
+         color: #fff;
+         cursor: pointer;
+         font-weight: 500;
+         border-radius: 4px;
+         background: #3b0063;
+         margin: 25px 0 10px;
+         transition: 0.1s ease;
+      }
+
+      form button:hover {
+         background: #40155c;
+      }
+
+      for .form-help {
+         display: flex;
+         justify-content: space-between;
+      }
+
+      for .remember-me {
+         display: flex;
+      }
+
+      for .remember-me input {
+         margin-right: 5px;
+         accent-color: #b3b3b3;
+      }
+
+      for .form-help :where(label, a) {
+         font-size: 0.9rem;
+      }
+
+      .form-wrapper :where(label, p, small, a) {
+         color: #b3b3b3;
+      }
+
+      .form-wrapper p a {
+         color: #fff;
+      }
+
+      .form-wrapper small {
+         display: block;
+         margin-top: 15px;
+      }
+
+      .form-wrapper small a {
+         color: #0071eb;
+      }
+
+      .form-wrapper a:hover {
+         text-decoration: underline;
+      }
+   }
+}

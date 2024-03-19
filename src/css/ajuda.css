@@ -1,0 +1,66 @@
+.faq {
+  height: 50vh;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 15vh 0px;
+}
+.faq h3 {
+  font-size: 28px;
+}
+.faq .faq-container {
+  width: 720px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+.faq .faq-container .accordion {
+  background-color: #3f3f3f;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.faq .faq-container .accordion .accordion-header {
+  width: 100%;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+.faq .faq-container .accordion .accordion-header span {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.faq .faq-container .accordion .accordion-header .arrow {
+  transition: transform 0.2s linear;
+}
+.faq .faq-container .accordion .accordion-body {
+  color: #ffffff;
+  transition: opacity 0.3s;
+  font-size: 14px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.faq .faq-container .accordion .accordion-body.active {
+  height: 100%;
+  opacity: 1;
+  padding: 5px 0px;
+}
+.faq .faq-container .accordion:has(:active) .arrow {
+  rotate: -180deg;
+}

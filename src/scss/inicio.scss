@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.action-box {
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   padding-left: 5px;
+   gap: 5px;
+   height: 20px;
+   border: 1px solid #fff;
+
+   button {
+      font-size: 16px;
+      border: none;
+      padding: 5px;
+      background-color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+   }
+
+   .like-btn {
+      color: red;
+   }
+}
+
+
+@import './inicio-page/main.scss';
+@import './inicio-page/secundary.scss';

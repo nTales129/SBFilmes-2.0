@@ -1,0 +1,127 @@
+.comentar {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+
+.comentar .form-container {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  width: 800px;
+  max-width: 90vw;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.3);
+}
+.comentar .form-container .input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 60%;
+}
+.comentar .form-container .input-field label {
+  font-size: 20px;
+}
+.comentar .form-container .input-field input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #4c0094;
+  width: 100px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: gold;
+}
+.comentar .form-container .input-field textarea {
+  width: 100%;
+  max-height: 200px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.comentar .form-container button {
+  font-size: 18px;
+  background-color: #3b0063;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.comentar .form-container button:hover {
+  padding-right: 40px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.coment-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coment-section h2 {
+  color: #3b0063;
+  font-size: 32px;
+}
+
+.comments-container {
+  width: 80%;
+  min-height: 70vh;
+  background-color: #00000057;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.comment {
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  gap: 5px;
+  color: #ffffff;
+  background: linear-gradient(90deg,rgb(19, 18, 19),rgb(9, 0, 17));
+  position: relative;
+}
+
+.comment strong {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  max-width: 30%;
+}
+
+.comment p {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.comment span {
+font-size: 12px;
+color: #666666;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+.comentar.comentar {
+  max-height: 50vh;
+}

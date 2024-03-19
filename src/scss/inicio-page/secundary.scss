@@ -1,0 +1,40 @@
+.secundary-section {
+   min-height: 100vh;
+   width: 100%;
+   padding-left: 10px;
+
+   .title-secundary {
+      margin-bottom: 20px; 
+      padding: 10px;
+      padding-left: 20px;
+      width: 100%;
+      background-color: #0f0f0f9d;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+      text-align: start;
+
+      h2 {
+         font-size: 36px;
+      }
+   }
+
+   .content-secundary {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 20px;
+
+      
+      .movie-container {
+      width: 240px;
+
+      img {
+         width: 95%;
+         height: auto;
+         margin-bottom: 5px;
+      }
+   }
+   }
+
+}

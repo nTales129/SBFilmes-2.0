@@ -1,0 +1,59 @@
+.container-main {
+   height: 100vh;
+   width: 100%;
+   
+
+   .logo-container {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      padding-right: 20px;
+   }
+
+   .content-container {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+
+
+      .img-container {
+         width: 320px;
+         max-width: 80vw;
+         height: auto;
+         border: 1px solid #fff;
+
+         img {
+            width: 100%;
+            height: auto;
+         }
+      }
+
+      .text-movie-container {
+         width: 450px;
+         max-width: 85vw;
+
+         .title-movie-main {
+            font-size: 32px;
+            letter-spacing: 1.5px;
+            margin-bottom: 10px;
+         }
+
+         .infos-movie-main {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-bottom: 15px;
+         }
+
+         .desc-movie-main {
+            color: #969494;
+            margin-bottom: 20px;
+         }
+
+      }
+   }
+}

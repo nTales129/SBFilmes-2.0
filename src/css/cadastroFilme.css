@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+
+body {
+   background: linear-gradient(90deg, rgb(44, 42, 44), rgb(20, 0, 37));
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   color: #fff;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+   border-radius: 5px;
+   background-color: #111111;
+   border: 1px solid #fff;
+   color: #fff;
+   width: 700px;
+   max-width: 95vw;
+}
+
+form {
+   display: flex;
+   gap: 1rem;
+   flex-wrap: wrap;
+
+}
+
+.input-field {
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+}
+
+.input-field input {
+   font-size: 16px;
+   color: #fff;
+   border: none;
+   border-bottom: 1px solid #ccc;
+   padding-left: 10px;
+   background: transparent;
+}
+
+.input-field input:focus-visible {
+   outline: none;
+}
+
+form button {
+   font-size: 18px;
+   background-color: #fff;
+   color: #111111;
+   padding: 5px 20px;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   transition: all 0.5s ease;
+}
+
+form button:hover {
+   background-color: #2c2c2c;
+}
