@@ -1,4 +1,3 @@
-🎬 SB Filmes 2.0 📺
 🌟 Visão Geral:
 Este é um projeto escolar do curso técnico de Desenvolvimento de Sistemas, onde o objetivo é criar o SB Filmes 2.0, um catálogo online de filmes e séries em grupo. Utilizamos tecnologias como HTML, CSS, JavaScript, PHP e banco de dados para construir esta plataforma interativa.
 
